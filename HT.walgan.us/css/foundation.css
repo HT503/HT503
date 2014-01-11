@@ -31,8 +31,8 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
-  color: #222222;
+  background: #FDFDFD;
+  color: #414040;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -5173,3 +5173,7 @@ th.hide-for-touch {
 
 .touch th.show-for-touch {
   display: table-cell !important; }
+  
+  <!-- for masonry -->
+  .masonry-brick { width: 220px; margin: 10px; float: left;  }
+  #masonryContainer { width: 0 auto; }  
