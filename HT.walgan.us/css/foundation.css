@@ -3507,7 +3507,7 @@ blockquote p {
       -webkit-border-radius: 3px;
       border-radius: 3px;
       font-weight: normal;
-      background: #2ba6cb;
+      background: #333333;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }

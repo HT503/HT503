@@ -1,240 +1,191 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HT503</title>
-	<!--    css          -->
-    <link rel="stylesheet" href="css/foundation.css" />
-	<!--    favicons     -->
-	<link rel="icon" href="img/16xHTfavicon.png" type="image/x-icon">
-	    <!-- For third-generation iPad with high-resolution Retina display: -->
-	    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/144xHTfavicon.png">
-	    <!-- For iPhone with high-resolution Retina display: -->
-	    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/114xHTfavicon.png">
-	    <!-- For first- and second-generation iPad: -->
-	    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/72xHTfavicon.png">
-	    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-	    <link rel="apple-touch-icon-precomposed" href="img/57xHTfavicon.png">
-    <script src="js/modernizr.js"></script>
-  </head> 
-  <body>
-	
-	  <!-- Nav Menu for Small Screens-->
-	  <div class="off-canvas-wrap">
-	    <div class="inner-wrap">
-	      <nav class="tab-bar hide-for-medium-up">
-	        <section class="left-small">
-	          <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-	        </section>
-	      </nav>
+	<head>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<title>HT 503</title>
+			<link rel="stylesheet" href="css/foundation.css" />
+			<!--    favicons     -->
+			<link rel="icon" href="img/16xHTfavicon.png" type="image/x-icon">
+				<!-- For third-generation iPad with high-resolution Retina display: -->
+				<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/144xHTfavicon.png">
+				<!-- For iPhone with high-resolution Retina display: -->
+				<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/114xHTfavicon.png">
+				<!-- For first- and second-generation iPad: -->
+				<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/72xHTfavicon.png">
+				<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+				<link rel="apple-touch-icon-precomposed" href="img/57xHTfavicon.png">
+			<script src="js/modernizr.js"></script>
+	</head>
+	<body>
+<!-- Nav Menu for Small Screens-->
+<div class="off-canvas-wrap">
+	<div class="inner-wrap">
+		<nav class="tab-bar hide-for-medium-up">
+			<section class="left-small">
+				<a class="left-off-canvas-toggle menu-icon"><span></span></a>
+			</section>
+		</nav>
+			<aside class="left-off-canvas-menu">
+				<ul class="off-canvas-list">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="syllabus.html">Syllabus</a></li>
+					<li><a href="schedule.html">Calendar</a>
+					<li><a href="LearningObjectives.html">Learning Objectives</a></li>
+					<li class="has-dropdown">
+						<a href="#" class="">Images</a>
+							<ul class="dropdown">
+								<li><a href="#" data-reveal-id="myModal">Carousel</a></li>
+							</ul>
+						</li>
+					<li> <a href="timeline.html" class="">Timeline</a> </li>
+					<li> <a href="courselinks.html">Course Links</a> </li>
+				</ul>
+			</aside>
+<a class="exit-off-canvas"></a>
 
-	      <aside class="left-off-canvas-menu">
-	        <ul class="off-canvas-list">
-	          <li><a href="index.html">Home</a></li>
-			  <li><a href="syllabus.html">Syllabus</a></li>
-	          <li><a href="schedule.html">Calendar</a>
-			  <li><a href="LearningObjectives.html">Learning Objectives</a></li>
-  	        <li class="has-dropdown">
-  	          <a href="#" class="">Images</a>
-  	          <ul class="dropdown">
-  	            <li><a href="#" data-reveal-id="myModal">Carousel</a></li>
-  	          </ul>
-  	        </li>
-			  <li> <a href="timeline.html" class="">Timeline</a> </li>
-			  <li> <a href="courselinks.html">Course Links</a> </li>	  
-	        </ul>
-	      </aside>
-
-    <a class="exit-off-canvas"></a>
-
- 
-	 
-	 <!-- 
-		  <nav class="tab-bar show-for-small" data-topbar>
-		      <ul class="title-area">
-		        <li class="name">
-		          <h1><a href="index.html">HT</a></h1>
-		        </li>
-		  	  <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-		      </ul>
-			  <section class="top-bar-section">
-	  	          <li><a href="syllabus.html" class="" target="_blank">Syllabus</a></li>
-	    	        <li class="divider"></li>
-	  			<li class="has-dropdown">
-	  			<a href="schedule.html">Calendar</a>
-	  				<ul class="dropdown">
-	    	            <li><a href="schedule.html#January" target="_blank">January</a></li>
-	    	            <li><a href="schedule.html#February"target="_blank">February</a></li>
-	    	            <li><a href="schedule.html#March" target="_blank">March</a></li>
-	  				 <li><a href="schedule.html#April" target="_blank">April</a></li>
-	    	          </ul>
-	    	        <li class="divider"></li>
-	    	        <li><a href="LearningObjectives.html" class="" target="_blank">Learning Objectives</a></li>
-	  	        <li class="divider"></li>
-	  	        <li class="has-dropdown">
-	  	          <a href="#" class="">Images</a>
-	  	          <ul class="dropdown">
-	  	            <li><a href="#" data-reveal-id="myModal">Carousel</a></li>
-	  	          </ul>
-	  	        </li>
-	  	        <li class="divider"></li>
-	  	        <li class="has-dropdown">
-	  	          <a href="#" class="">Timeline</a>
-	  	          <ul class="dropdown">
-	  	            <li><a href="http://cl.ly/2P2m3N2a1s29" target="_blank">PDF</a></li>
-	  				<li class="has-dropdown"><a href="#">Digital Timeline Project</a>
-	  					<ul class="dropdown">
-	  					              <li><label>Digital Timeline</label></li>
-	  					              <li><a href="#" target="_blank">About</a>
-	  								  <li><a href="#" target="_blank">How to Help</a>
-	  								  <li><a href="#" target="_blank">Contribute</a>
-	  								  <li><a href="#" target="_blank">Check it Out</a>
-	  					</ul>
-					
-	  	          </ul>
-	  	        <li class="divider"></li>
-	  	        <li class="has-dropdown">
-	  	          <a href="learn/features.html" class="">Course Links</a>
-	  	          <ul class="dropdown">
-	  	            <li><a href="http://classes.emory.edu"target="_blank">Blackboard</a></li>
-	  	            <li><a href="https://ereserves.library.emory.edu/index.php"target="_blank">CourseReserves</a></li>
-	  	            <!--
-	  					><li><a href="learn/case-washington-post.html" target="_blank">AdobeConnect</a></li>
-	  	            <li><a href="learn/website-examples.html" target="_blank">Echo360</a></li>
-	  	            <li><a href="http://itunes.emory.edu" target="_blank">iTunesU </a></li>
-	  					-->
-		 <!--
-	  	          </ul>
-	  	        <li class="divider"></li>
-	  	      </ul>
-		</section>
-	  </nav>
-  </div>
-		-->
-		  <!--Nav Menu for Medium and Large Screens -->
-		  <div class="navigation">
-  <nav class="top-bar hide-for-small" data-topbar>
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="index.html">503</a></h1>
-      </li>
-	  <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-    </ul>
-	    <section class="top-bar-section">
-	      <ul class="right">
-		         <li class="has-dropdown">
-	          <li><a href="syllabus.html" class="" target="_blank">Syllabus</a></li>
-  	        <li class="divider"></li>
+<!--Nav Menu for Medium and Large Screens -->
+<div class="navigation">
+	<nav class="top-bar hide-for-small" data-topbar>
+		<ul class="title-area">
+			<li class="name">
+				<h1><a href="index.html"><img src="img/36xHTfavicon.png"/></a></h1>
+				</li>
+			<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+		</ul>
+	<section class="top-bar-section">
+		<ul class="right">
 			<li class="has-dropdown">
-			<a href="schedule.html">Calendar</a>
-				<ul class="dropdown">
-  	            <li><a href="schedule.html#January" target="_blank">January</a></li>
-  	            <li><a href="schedule.html#February"target="_blank">February</a></li>
-  	            <li><a href="schedule.html#March" target="_blank">March</a></li>
-				 <li><a href="schedule.html#April" target="_blank">April</a></li>
-  	          </ul>
-		  
-  	        <li class="divider"></li>
-  	        <li><a href="LearningObjectives.html" class="" target="_blank">Learning Objectives</a></li>
-	        <li class="divider"></li>
-	        <li class="has-dropdown">
-	          <a href="#" class="">Images</a>
-	          <ul class="dropdown">
-	            <li><a href="#" data-reveal-id="myModal">Carousel</a></li>
-	          </ul>
-	        </li>
-	        <li class="divider"></li>
-	        <li class="has-dropdown">
-	          <a href="#" class="">Timeline</a>
-	          <ul class="dropdown">
-	            <li><a href="http://cl.ly/2P2m3N2a1s29" target="_blank">PDF</a></li>
-				<li class="has-dropdown"><a href="#">Digital Timeline Project</a>
+				<a href="syllabus.html" class="">Syllabus</a>
 					<ul class="dropdown">
-					              <li><label>Digital Timeline</label></li>
-					              <li><a href="#" target="_blank">About</a>
-								  <li><a href="#" target="_blank">How to Help</a>
-								  <li><a href="#" target="_blank">Contribute</a>
-								  <li><a href="#" target="_blank">Check it Out</a>
-								  </ul>
+						<li><a href="syllabus.html#TeachTeam">Teaching Team</a></li>
+						<li><a href="syllabus.html#Intro">Introduction</a></li>
+						<li><a href="syllabus.html#Structure">Structure</a></li>
+						<li><a href="syllabus.html#Resources">Resources</a></li>
+						<li><a href="syllabus.html#Ground">Ground Rules</a></li>
+						<li><a href="syllabus.html#Grades">Grade Distribution</a></li>
+					</ul>
+				
+			<li class="divider"></li>
+				
+			<li class="has-dropdown">
+					<a href="schedule.html">Calendar</a>
+						<ul class="dropdown">
+							<li><a href="schedule.html#January">January</a></li>
+							<li><a href="schedule.html#February">February</a></li>
+							<li><a href="schedule.html#March">March</a></li>
+							<li><a href="schedule.html#April">April</a></li>
+						</ul>
+						
+			<li class="divider"></li>
+				
+			<li><a href="LearningObjectives.html" class="">Learning Objectives</a></li>
+
+			<li class="divider"></li>
+
+			<li class="has-dropdown">
+				<a href="#" class="">Images</a>
+					<ul class="dropdown">
+						<li><a href="#" data-reveal-id="myModal">Carousel I</a></li>
+		<!-- To Be Released  
+						<li><a href="#" data-reveal-id="myModal">Carousel II</a></li>
+						<li><a href="#" data-reveal-id="myModal">Carousel III</a></li>
+		-->
+					</ul>
+			
+			<li class="divider"></li>
+
+			<li class="has-dropdown">
+				<a href="#" class="">Timeline</a>
+					<ul class="dropdown">
+						<li><a href="assets/CTHTTimeline.pdf" target="_blank">PDF</a></li>
+								<li class="has-dropdown"><a href="#">Digital Timeline Project</a>
+						<ul class="dropdown">
+							<li><label>Digital Timeline</label></li>
+								<li><a href="#">About</a>
+								<li><a href="#">How to Help</a>
+								<li><a href="#">Contribute</a>
+								<li><a href="#" target="_blank">Check it Out</a>
+						</ul>
+					</ul>
 					
-	          </ul>
-	        <li class="divider"></li>
-	        <li class="has-dropdown">
-	          <a href="#" class=>Course Links</a>
-	          <ul class="dropdown">
-	            <li><a href="http://classes.emory.edu"target="_blank">Blackboard</a></li>
-	            <li><a href="https://ereserves.library.emory.edu/index.php"target="_blank">CourseReserves</a></li>
-	            <!--
-					><li><a href="learn/case-washington-post.html" target="_blank">AdobeConnect</a></li>
-	            <li><a href="learn/website-examples.html" target="_blank">Echo360</a></li>
-	            <li><a href="http://itunes.emory.edu" target="_blank">iTunesU </a></li>
-					-->
-	          </ul>
-	        <li class="divider"></li>
-	      </ul>
-	    </section>
-	  </nav>	
-	  
-	  <!-- Main Section -->
-      <section class="main-section">
-        <!-- content goes here -->
-     
-  </div>
-	  <div class="panel">
- 		<p class="text-center"><img src="img/AnonymousChristontheRoadtoEmmaus.jpg" alt="AnonymousChristontheRoadtoEmmaus"></p>
-        <h1 class="text-center">History of Theology</h1>
-		<h3 class="text-center">Sixteenth-Century Reforming Traditions to 20th Century Dialectical Theologians</h3>
-	</div>	
-	
-	     </section>	
-     </div>
-   </div>
-	
-    <!-- Footer -->
-	<!--
-      <footer class="row">
-        <div class="large-12 columns"><hr>
-            <div class="row">
- 
-              <div class="large-6 columns">
-                  <p>© Copyright no one at all. Go to town.</p>
-              </div>
- 
-              <div class="large-6 small-12 columns">
-                  <ul class="inline-list right">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                  </ul>
-              </div>
- 
-            </div>
-        </div>
-      </footer>
+			<li class="divider"></li>
+			
+			<li class="has-dropdown">
+				<a href="#" class=>Course Links</a>
+					<ul class="dropdown">
+						<li><a href="http://classes.emory.edu" target="_blank">Blackboard</a></li>
+						<li><a href="https://ereserves.library.emory.edu/index.php" target="_blank">CourseReserves</a></li>
+						<li><a href="http://itunes.emory.edu" target="_blank">iTunesU </a></li>
+					</ul>
+					
+			<li class="divider"></li>
+		</ul>
+	</section>
+  </nav>
+</div>
+<!-- Main Section -->
+	<section class="main-section">
+<!-- content goes here -->
+
+<div class="panel">
+<p class="text-center"><img src="http://ht.walgan.us/img/xAnonymousChristontheRoadtoEmmaus.jpg.pagespeed.ic.rQUtkjn4R6.jpg" alt="AnonymousChristontheRoadtoEmmaus"></p>
+<h1 class="text-center">History of Theology</h1>
+<h3 class="text-center">Sixteenth-Century Reforming Traditions to 20th Century Dialectical Theologians</h3>
+</div>
+</section>
+</div>
+</div>
+<!-- Footer -->
+<!--
+	  <footer class="row">
+		<div class="large-12 columns"><hr>
+			<div class="row">
+
+			  <div class="large-6 columns">
+				  <p>© Copyright no one at all. Go to town.</p>
+			  </div>
+
+			  <div class="large-6 small-12 columns">
+				  <ul class="inline-list right">
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+				  </ul>
+			  </div>
+
+			</div>
+		</div>
+	  </footer>
 	-->
-		
-		<!-- Close Up -->
-	<div id="myModal" class="reveal-modal" data-reveal>
-	  <p class="lead">If you're not looking for educational materials, it's time for a snack.</p>
-	  <p>
-		  <a href="Carousel/index.html" class="medium success button" target="_blank">Carousel</a>
-	  <a href="http://www.youtube.com/watch?v=ZIW2Teg4F6k&feature=share&list=PLDE0E37DA58BE091C&index=1" class="medium secondary button" target="_blank">chips & guac</a>
-	   <a href="http://youtu.be/731m0zsbm_w" class="medium secondary button" target="_blank">food for thought</a>
-	   <a href="http://www.mms.com" class="medium secondary button" target="_blank">m&m's</a>
-	    <a href="http://smittenkitchen.com/blog/2008/01/pickled-carrot-sticks/" class="medium secondary button" target="_blank">carrot sticks</a>
-   		</p>
-	  <a class="close-reveal-modal">&#215;</a>
-	</div>
-  
-	<script src="js/foundation/foundation.js"></script>
-	  <script src="js/foundation/foundation.topbar.js"></script>
-      <script src="js/jquery.js"></script>
-  	<script src="/js/vendor/fastclick.js"></script>
-      <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+	
+<!-- Close Main Section -->
+</section>			
+
+	<!-- Modal(s) -->
+<div id="myModal" class="reveal-modal" data-reveal>
+	<p class="lead">If you're not looking for educational materials, it's time for a snack.</p>
+		<p>
+			<a href="Carousel/index.html" class="medium success button" target="_blank">Carousel</a>
+			<a href="http://www.youtube.com/watch?v=ZIW2Teg4F6k&feature=share&list=PLDE0E37DA58BE091C&index=1" class="medium secondary button" target="_blank">chips & guac</a>
+			<a href="http://youtu.be/731m0zsbm_w" class="medium secondary button" target="_blank">food for thought</a>
+			<a href="http://www.mms.com" class="medium secondary button" target="_blank">m&m's</a>
+			<a href="http://smittenkitchen.com/blog/2008/01/pickled-carrot-sticks/" class="medium secondary button" target="_blank">carrot sticks</a>
+		</p>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+	<!-- Scripts -->
+
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/vendor/fastclick.js"></script>
+<script src="js/foundation.min.js"></script>
+<script> 
+	$(document).foundation();
+</script>
+
+	</body>
 </html>
